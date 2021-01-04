@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <style>
+        #id2{
+            padding-top: 20px;
+            padding-left: 20px;
+            color: orangered;
+            font-size: 30px;
+            resize: none;
+        }
+        #id1{
+            resize: none;
+
+        }
+        button{
+            color: green;
+        }
+        h1{
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+<textarea name="hmtl" id="id1" cols="80" rows="20">
+    <code>
+        <html>
+            <head>
+
+            </head>
+            <body>
+                <h1 id="head">Editor</h1>
+                <button class="btn" style="display: none;" onclick="document.getElementById('head').style.display='block'">Click</button>
+                <br><br>
+                <input type="text" value="" placeholder="Type here..."> 
+            </body>
+        </html>
+    </code>
+</textarea>
+<textarea name="input" id="id2" cols="30" rows="4">Editor
+    <button>Click</button>
+    <input type="text" placeholder="Type here...">
+</textarea>
+<script src="editor.js">
+
+</script>
+</body>
+</html>
